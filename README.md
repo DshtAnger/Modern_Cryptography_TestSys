@@ -38,5 +38,6 @@
         chmod -R 644 Modern_Cryptography_TestSys
         find Modern_Cryptography_TestSys -type d -exec chmod 755 \{\} \;
         chmod a+w Modern_Cryptography_TestSys/examination/templates/exams_results
-a2ensite exam_system
-service apache2 restart
+        
+        a2ensite exam_system
+        service apache2 restart
